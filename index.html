@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Pham Minh Hieu — .NET Software Engineer portfolio">
+  <meta name="theme-color" content="#0a0c0f">
+  <title>Pham Minh Hieu — .NET Software Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Home">
+      <span class="brand-mark">PH</span>
+      <span><strong id="brandName">Pham Minh Hieu</strong><small>.NET Software Engineer</small></span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#work" data-i18n="navWork">Work</a>
+      <a href="#experience" data-i18n="navExperience">Experience</a>
+      <a href="#skills" data-i18n="navSkills">Capabilities</a>
+      <button id="langToggle" class="chip" type="button" aria-label="Switch language">VI / EN</button>
+      <div class="export">
+        <button id="exportToggle" class="export-btn" type="button" aria-expanded="false" data-i18n="export">Export CV ▾</button>
+        <div id="exportMenu" class="export-menu">
+          <a id="resumeLink" href="https://hieugc.github.io/hieugc/assets/assets/documents/PhamMinhHieu_NET.pdf" target="_blank" rel="noreferrer">
+            <span data-i18n="downloadPdf">Download CV PDF</span><small>↗</small>
+          </a>
+          <button type="button" onclick="window.print()"><span data-i18n="printPdf">Print / Save as PDF</span><small>⌘P</small></button>
+          <button type="button" id="copyProfile"><span data-i18n="copyProfile">Copy profile summary</span><small>⧉</small></button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-main">
+        <p class="eyebrow" data-i18n="heroEyebrow">Software Engineer · Ho Chi Minh City</p>
+        <h1 data-i18n-html="heroTitle">BUILDING<br><em>RELIABLE</em><br>SYSTEMS.</h1>
+        <p class="lead" data-i18n="heroLead">Backend-focused engineer building production software across enterprise workflows, APIs, databases, integrations and operational tooling.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#work" data-i18n="explore">Explore selected work ↓</a>
+          <a class="btn" href="https://github.com/hieugc" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+      <aside class="hero-side">
+        <div class="status"><span></span><b data-i18n="available">Open to software engineering opportunities</b></div>
+        <dl class="facts">
+          <div><dt>STACK</dt><dd>.NET Core / SQL / PostgreSQL</dd></div>
+          <div><dt>FOCUS</dt><dd data-i18n="focus">Backend / API / Data workflows</dd></div>
+          <div><dt>DELIVERY</dt><dd>Docker / IIS / Git</dd></div>
+          <div><dt>LANG</dt><dd>Vietnamese / English</dd></div>
+        </dl>
+        <p class="side-note" data-i18n="sideNote">A portfolio focused on how systems are structured, shipped and maintained — not only on technology labels.</p>
+      </aside>
+    </section>
+
+    <section class="metrics" aria-label="Profile metrics">
+      <div><strong>2+</strong><span data-i18n="years">Years Experience</span></div>
+      <div><strong>5+</strong><span data-i18n="projects">Projects Completed</span></div>
+      <div><strong>Gov & Enterprise</strong><span data-i18n="clients">Client Sectors</span></div>
+      <div><strong>Full Stack</strong><span data-i18n="development">Development</span></div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-head">
+        <div><p class="eyebrow">01 / SELECTED WORK</p><h2 data-i18n="workTitle">Systems with real operational context</h2></div>
+        <p data-i18n="workIntro">Each project highlights the problem, technical stack, ownership and delivery context.</p>
+      </div>
+
+      <div id="projectList" class="project-list"></div>
+    </section>
+
+    <section class="split">
+      <div id="experience" class="panel">
+        <p class="eyebrow">02 / EXPERIENCE</p>
+        <h2 data-i18n="experienceTitle">Production experience</h2>
+        <div class="timeline">
+          <article>
+            <time>2023 — 2025</time>
+            <div><h3>Tri Viet JSC</h3><p data-i18n="experienceDesc">Software Engineer (.NET) · full-stack delivery for enterprise and government web systems.</p></div>
+          </article>
+          <article>
+            <time>2019 — 2023</time>
+            <div><h3 data-i18n="educationSchool">HCMC University of Technology</h3><p data-i18n="educationDesc">Bachelor of Computer Science · GPA 7.0</p></div>
+          </article>
+        </div>
+      </div>
+
+      <div id="skills" class="panel">
+        <p class="eyebrow">03 / ENGINEERING CAPABILITIES</p>
+        <h2 data-i18n="skillsTitle">What I work with</h2>
+        <div id="skillList" class="skill-list"></div>
+      </div>
+    </section>
+
+    <section class="story">
+      <div>
+        <p class="eyebrow">04 / ENGINEERING STORY</p>
+        <h2 data-i18n="storyTitle">Show decisions, not only screenshots.</h2>
+        <p data-i18n="storyDesc">A professional engineering portfolio should explain what problem existed, how the system was structured, what you owned and how it reached production.</p>
+      </div>
+      <div class="story-steps">
+        <div><span>01</span><b data-i18n="problem">Problem</b></div>
+        <div><span>02</span><b data-i18n="architecture">Architecture</b></div>
+        <div><span>03</span><b data-i18n="ownership">Ownership</b></div>
+        <div><span>04</span><b data-i18n="delivery">Delivery</b></div>
+      </div>
+    </section>
+
+    <section class="cv">
+      <div>
+        <p class="eyebrow blue">RESUME / CV</p>
+        <h2 data-i18n="cvTitle">Portfolio when exploring.<br>CV when scanning.</h2>
+        <p data-i18n="cvDesc">The portfolio provides technical context, while the existing CV remains one click away for recruiters who need a conventional résumé.</p>
+      </div>
+      <div class="cv-actions">
+        <a class="solid" href="https://hieugc.github.io/hieugc/assets/assets/documents/PhamMinhHieu_NET.pdf" target="_blank" rel="noreferrer"><span data-i18n="downloadPdf">Download CV PDF</span><span>↓</span></a>
+        <button type="button" onclick="window.print()"><span data-i18n="printPdf">Print / Save as PDF</span><span>⌘P</span></button>
+        <button type="button" id="copyProfile2"><span data-i18n="copyProfile">Copy profile summary</span><span>⧉</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Pham Minh Hieu · .NET Software Engineer</span>
+    <span>GitHub: hieugc</span>
+  </footer>
+
+<script src="app.js"></script>
+</body>
+</html>
