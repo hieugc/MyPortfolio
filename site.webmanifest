@@ -1,0 +1,16 @@
+{
+  "name": "Pham Minh Hieu — Software Engineer",
+  "short_name": "Hieu Portfolio",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#e9efed",
+  "theme_color": "#e9efed",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
