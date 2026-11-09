@@ -8,11 +8,11 @@
   --paper-muted: #dfe7e4;
   --line: #c5d2ce;
   --line-dark: rgba(235, 243, 240, .18);
-  --muted: #587075;
+  --muted: #4d656a;
   --muted-light: #a9bfbd;
   --teal: #4f8985;
   --teal-light: #9fc5bd;
-  --copper: #a85f3e;
+  --copper: #965033;
   --copper-light: #d59a77;
   --white: #f7faf8;
   --display: "Space Grotesk", "Avenir Next", sans-serif;
@@ -118,7 +118,7 @@ a:focus-visible, button:focus-visible {
 .button-dark { background: var(--ink); color: var(--white); }
 .button-dark:hover { background: var(--ink-soft); }
 .button-copper { background: var(--copper); color: #fffaf7; }
-.button-copper:hover { background: #8f4d32; }
+.button-copper:hover { background: #80452c; }
 .button-light { background: var(--paper-bright); color: var(--ink); }
 .button-light:hover { background: #dbe7e2; }
 .text-link {
