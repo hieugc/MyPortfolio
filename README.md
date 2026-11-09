@@ -33,7 +33,7 @@ The build writes the deployable static site to dist/.
 
 ## Deployment
 
-GitHub Actions verifies the project and deploys dist/ to GitHub Pages when changes reach main. Pull requests run the verification job but do not deploy.
+GitHub Actions verifies the project and deploys dist/ to GitHub Pages when changes reach main. Pull requests run the verification job but do not deploy. Before the first deployment, enable Pages once in repository Settings → Pages → Build and deployment → Source → GitHub Actions. The workflow uses the standard GITHUB_TOKEN and does not attempt to change repository-level Pages settings.
 
 ## Content notes
 
